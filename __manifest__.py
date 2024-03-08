@@ -1,6 +1,6 @@
 {
     'name': 'Shahidh Test',
-    'version': '0.1',
+    'version': '0.2',
     'sequence': 4,
     'description': 
     """Origen module to improve interface""",
