@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 13">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fcee21;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Group_2" data-name="Group 2" transform="translate(-24 -53)">
+    <rect id="Rectangle" class="cls-1" width="3" height="3" rx="1" transform="translate(24 53)"/>
+    <rect id="Rectangle-2" data-name="Rectangle" class="cls-1" width="3" height="3" rx="1" transform="translate(24 58)"/>
+    <rect id="Rectangle-3" data-name="Rectangle" class="cls-1" width="3" height="3" rx="1" transform="translate(24 63)"/>
+    <g id="hamburger" transform="translate(24 51)">
+      <rect id="bloc" class="cls-2" width="12" height="3" rx="1" transform="translate(4 2)"/>
+      <rect id="bloc-2" data-name="bloc" class="cls-2" width="14" height="3" rx="1" transform="translate(4 7)"/>
+      <rect id="bloc-3" data-name="bloc" class="cls-2" width="7" height="3" rx="1" transform="translate(4 12)"/>
+    </g>
+  </g>
+</svg>

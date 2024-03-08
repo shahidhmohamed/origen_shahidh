@@ -1,0 +1,13 @@
+<svg id="multi_homed" data-name="multi homed" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <path id="Shape" class="cls-1" d="M2,0A2,2,0,0,0,2,4H14.79V16.79a2,2,0,0,0,4,0V2a2,2,0,0,0-2-2Z" transform="translate(41.21)"/>
+  <path id="Shape-2" data-name="Shape" class="cls-1" d="M2,18.79H16.79a2,2,0,0,0,0-4H4V2A2,2,0,0,0,0,2V16.79A2,2,0,0,0,2,18.79Z" transform="translate(0 41.21)"/>
+  <path id="Shape-3" data-name="Shape" class="cls-1" d="M23,32H5a2,2,0,1,1,0-4h7V23H2a2,2,0,0,1-2-2V2A2,2,0,0,1,2,0H26a2,2,0,0,1,2,2V21a2,2,0,0,1-2,2H16v5h7a2,2,0,0,1,0,4ZM4,4V19H24V4Z" transform="translate(32 28)"/>
+  <path id="Shape-4" data-name="Shape" class="cls-1" d="M23,32H5a2,2,0,1,1,0-4h7V23H2a2,2,0,0,1-2-2V2A2,2,0,0,1,2,0H26a2,2,0,0,1,2,2V21a2,2,0,0,1-2,2H16v5h7a2,2,0,0,1,0,4ZM4,4V19H24V4Z"/>
+</svg>

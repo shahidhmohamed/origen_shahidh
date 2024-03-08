@@ -1,0 +1,23 @@
+<svg id="flag" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37.176 64">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: none;
+      }
+
+      .cls-3{
+        fill:white;
+      }
+    </style>
+  </defs>
+  <rect id="Rectangle_4" class="cls-3" data-name="Rectangle 4" width="4" height="64" rx="2"/>
+  <g id="Rectangle_5" data-name="Rectangle 5" class="cls-1" transform="translate(0 8)">
+    <path class="cls-2" d="M0,0H35.172a2,2,0,0,1,1.414,3.414L27,13l9.586,9.586A2,2,0,0,1,35.172,26H0Z"/>
+    <path class="cls-3" d="M 4 4 L 4 22 L 30.34314346313477 22 L 24.17157173156738 15.82842826843262 L 21.34314346313477 13 L 24.17157173156738 10.17157173156738 L 30.34314346313477 4 L 4 4 M 0 0 L 35.17156982421875 0 C 36.95338439941406 0 37.8457145690918 2.154285430908203 36.58578491210938 3.414215087890625 L 27 13 L 36.58578491210938 22.58578491210938 C 37.8457145690918 23.8457145690918 36.95338439941406 26 35.17156982421875 26 L 0 26 L 0 0 Z"/>
+  </g>
+</svg>

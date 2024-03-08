@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id='custome_footer' inherit_id='website.layout' name='custome footer'>
+        <xpath expr="//footer" position="replace">
+            <footer>
+                <section>
+                    <div class="callback">
+                        <span>Need help? Call us now:</span>
+                        <span class="the_number">
+                            <a href="tel:+1 855 696 7443">+1 855 696 7443</a>
+                        </span>
+                    </div>
+                    <div class="locations">
+                        <ul class="column_list">
+                            <li>
+                                <span class="title">Canada</span>
+                                <span>1350 rue Mazurette</span>
+                                <span>#225</span>
+                                <span>Montreal, QC</span>
+                                <span>H4N 1H2</span>
+                            </li>
+                            <li>
+                                <span class="title">USA</span>
+                                <span>99 Wall Street</span>
+                                <span>#401</span>
+                                <span>New York City, NY</span>
+                                <span>10005</span>
+                            </li>
+                            <li>
+                                <span class="title">Qatar</span>
+                                <span>1 Al Corniche St</span>
+                                <span>Burj Doha, level 21</span>
+                                <span>Doha</span>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <section>
+                    <ul class="sitemap">
+                        <li>
+                            <ul class="column_list">
+                                <li class="title">About Origen</li>
+                                <li>
+                                    <a href="/about">About us</a>
+                                </li>
+                                <li>
+                                    <a href="http://iplab.origen.ca/">Blog</a>
+                                </li>
+                                <li>
+                                    <a href="/about#careers">Careers</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="column_list">
+                                <li class="title">Our Services</li>
+                                <li>
+                                    <a href="/services/fiber">Business Internet</a>
+                                </li>
+                                <li>
+                                    <a href="/services/voip">SIP Trunking</a>
+                                </li>
+                                <li>
+                                    <a href="/services/fiber">Dedicated Internet</a>
+                                </li>
+                                <li>
+                                    <a href="/services/voip">Hosted PBX</a>
+                                </li>
+                                <li>
+                                    <a href="/contact#contact_form">Get a free quote</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="column_list">
+                                <li class="title">Help Center</li>
+                                <li>
+                                    <a href="/support/">Support center</a>
+                                </li>
+                                <li>
+                                    <a href="/contact#contact_form">Contact Us</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <div class="last_line">
+                        <div class="copyright">
+                            <span class="o_footer_copyright_name">Copyright © 2019 Origen, all rights reserved</span>
+                            <span>
+                                <a href="#">Sitemap</a>
+                            </span>
+                            <span>
+                                <a href="/page/terms-and-conditions">Terms &amp; Conditions</a>
+                            </span>
+                            <span>
+                                <a href="/page/privacy-policy">Privacy Policy</a>
+                            </span>
+                        </div>
+                        <div class="social">
+                            <a href="https://www.facebook.com/Origentech/" target="_blank" rel="noopener noreferrer">
+                                <img class="svg" src="/shahidh_origen/static/src/img/icons/facebook.svg"/>
+                            </a>
+                            <a href="https://twitter.com/OrigenITTech" target="_blank" rel="noopener noreferrer">
+                                <img class="svg" src="/shahidh_origen/static/src/img/icons/twitter.svg"/>
+                            </a>
+                            <a href="https://www.linkedin.com/company/origen-tech/" target="_blank" rel="noopener noreferrer">
+                                <img class="svg" src="/shahidh_origen/static/src/img/icons/linkedin.svg"/>
+                            </a>
+                            <a href="https://www.instagram.com/origenofficial/" target="_blank" rel="noopener noreferrer">
+                                <img class="svg" src="/shahidh_origen/static/src/img/icons/instagram.svg"/>
+                            </a>
+                            <a href="https://plus.google.com/+OrigenCa" target="_blank" rel="noopener noreferrer">
+                                <img class="svg" src="/shahidh_origen/static/src/img/icons/googleplus.svg"/>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+            </footer>
+        </xpath>
+    </template>
+</odoo>

@@ -1,0 +1,33 @@
+<svg id="receptionist" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 67 62">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+
+      .cls-2 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Rectangle" class="cls-1" transform="translate(6 35)">
+    <rect class="cls-2" width="55" height="27" rx="3"/>
+    <rect class="cls-3" x="2" y="2" width="51" height="23" rx="1"/>
+  </g>
+  <path id="Shape" d="M2.278,4.989h26.7c1.229,0,2.466.025,3.7,0h.053A2.418,2.418,0,0,0,35,2.5,2.428,2.428,0,0,0,32.722.011H6.027c-1.229,0-2.466-.025-3.7,0H2.278A2.418,2.418,0,0,0,0,2.5,2.428,2.428,0,0,0,2.278,4.989Z" transform="translate(16 46)"/>
+  <rect id="Rectangle_2" data-name="Rectangle 2" width="67" height="4" rx="2" transform="translate(0 35)"/>
+  <g id="Oval" class="cls-1" transform="translate(25)">
+    <ellipse class="cls-2" cx="8" cy="9" rx="8" ry="9"/>
+    <ellipse class="cls-3" cx="8" cy="9" rx="6" ry="7"/>
+  </g>
+  <g id="Rectangle_3" data-name="Rectangle 3" class="cls-1" transform="translate(18 21)">
+    <path class="cls-2" d="M9,0H22a9,9,0,0,1,9,9v9a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V9A9,9,0,0,1,9,0Z"/>
+    <path class="cls-3" d="M9,2H22a7,7,0,0,1,7,7v5a2,2,0,0,1-2,2H4a2,2,0,0,1-2-2V9A7,7,0,0,1,9,2Z"/>
+  </g>
+</svg>

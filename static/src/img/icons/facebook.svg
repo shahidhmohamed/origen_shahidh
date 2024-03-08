@@ -1,0 +1,27 @@
+<svg id="facebook" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .cls-1, .cls-4 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #303030;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: #a0a0a0;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Rectangle" class="cls-1">
+    <rect class="cls-3" width="32" height="32" rx="4"/>
+    <rect class="cls-4" x="0.5" y="0.5" width="31" height="31" rx="3.5"/>
+  </g>
+  <path id="Shape" class="cls-2" d="M4.987,15H1.662V7.5H0V4.914H1.662V3.363C1.662,1.254,2.6,0,5.266,0H7.485V2.586H6.1c-1.038,0-1.106.361-1.106,1.035l0,1.294H7.5L7.206,7.5H4.987V15Z" transform="translate(12.5 9)"/>
+</svg>

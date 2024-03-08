@@ -1,0 +1,13 @@
+<svg viewBox="0 0 70 49" xmlns="http://www.w3.org/2000/svg">
+	<defs>
+		<style>.technologies_cls-1{fill:#fcfcfc;}</style>
+	</defs>
+	<title>technologies</title>
+	<g data-name="Layer 2" id="Layer_2">
+		<g data-name="Layer 5" id="Layer_5">
+			<path class="technologies_cls-1 fill" d="M67.75,0H2.25A2.25,2.25,0,0,0,0,2.25V47.12A1.88,1.88,0,0,0,1.88,49H67.75A2.25,2.25,0,0,0,70,46.75V2.25A2.25,2.25,0,0,0,67.75,0ZM4,45V4H66V45Z"/>
+			<rect class="technologies_cls-1 fill" height="5" width="14" x="31" y="30"/>
+			<polygon class="technologies_cls-1 fill" points="13.27 18.71 19.55 24.99 13.27 31.28 17.14 35.15 27.3 24.99 17.14 14.84 13.27 18.71"/>
+		</g>
+	</g>
+</svg>

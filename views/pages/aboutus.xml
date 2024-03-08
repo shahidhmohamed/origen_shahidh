@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="page_about_us_test" model="website.page">
+        <field name="name">about-us</field>
+        <field name="is_published" eval="True"/>
+        <field name="key">website_shahidh.page_aboutus_1</field>
+        <field name="url">/aboutus</field>
+        <field name="type">qweb</field>
+        <field name="arch" type="xml">
+            <t t-name="website_airproof.page_about_us">
+
+                <t t-call="website.layout">
+                    <div id="wrap" class="oe_structure">
+
+                        <!-- Content -->
+                        <p>Test</p>
+
+                    </div>
+                </t>
+
+            </t>
+        </field>
+    </record>
+</odoo>

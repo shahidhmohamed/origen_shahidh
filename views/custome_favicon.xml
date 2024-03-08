@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="custome_favcon" model="ir.ui.view">
+        <field name="name">Backend Layout</field>
+        <field name="inherit_id" ref="web.layout"/>
+        <field name="priority">100</field>
+        <field name="arch" type="xml">
+            <xpath expr="//link[@type='image/x-icon']" position="replace">
+                <link type="image/x-icon" rel="shortcut icon" href="/shahidh_origen/static/src/img/favicon.ico"/>
+            </xpath>
+
+        </field>
+    </record>
+</odoo>

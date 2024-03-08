@@ -1,0 +1,11 @@
+<svg viewBox="0 0 46.26 49.64" xmlns="http://www.w3.org/2000/svg">
+	<defs>
+		<style>.industries_cls-1{fill:#fcfcfc;}</style>
+	</defs>
+	<title>industries</title>
+	<g data-name="Layer 2" id="Layer_2">
+		<g data-name="Layer 5" id="Layer_5">
+			<path class="industries_cls-1 fill" d="M44.91,38.58,32.39,23.37V5h4a1.18,1.18,0,0,0,1.18-1.17V1.17A1.18,1.18,0,0,0,36.35,0H10.07A1.17,1.17,0,0,0,8.9,1.17V3.85A1.17,1.17,0,0,0,10.07,5h3.81V23.37L1.26,38.72A6.94,6.94,0,0,0,6.94,49.64H39.33a6.93,6.93,0,0,0,5.58-11.06ZM9.68,33.45l6.41-7.79a2.3,2.3,0,0,0,.53-1.47V5h13v5.29H24.14v2.84h5.52v3.1H21.82V19h7.84v5.15a2.25,2.25,0,0,0,.53,1.47l6.4,7.79Z"/>
+		</g>
+	</g>
+</svg>

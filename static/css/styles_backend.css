@@ -1,0 +1,25 @@
+.o_main_navbar {
+  background-color: #060b0e;
+  border-bottom: #060b0e;
+  position: relative;
+}
+.o_main_navbar > a:hover,
+.o_main_navbar > a:focus,
+.o_main_navbar > button:hover,
+.o_main_navbar > button:focus,
+.o_main_navbar .show .dropdown-toggle {
+  background-color: #060b0e;
+}
+.o_main_navbar > ul > li > a:hover,
+.o_main_navbar > ul > li > label:hover {
+  background-color: #060b0e;
+}
+.o_searchview .o_searchview_facet .o_searchview_facet_label {
+  background-color: #060b0e;
+}
+.o_form_view .o_notebook > .nav.nav-tabs > .nav-item > .nav-link.active,
+.o_form_view .o_notebook > .nav.nav-tabs > .nav-item > .nav-link.active:hover,
+.o_form_view .o_notebook > .nav.nav-tabs > .nav-item > .nav-link.active:focus,
+.o_form_view .o_notebook > .nav.nav-tabs > .nav-item > .nav-link.active:active {
+  border-top-color: #060b0e;
+}

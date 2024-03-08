@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="custom_homepage" inherit_id="website.homepage" name="Home">
+        <xpath expr="//t[@t-call='website.layout']" position="replace">
+            <t t-call="website.layout">
+                <t t-set="pageName" t-value="'homepage'"/>
+                <section id="landing" class="black oe_structure">
+                    <div class="wrapper">
+                        <div>
+                            <div class="powered_driven title">
+                                <div>Powered by technology,</div>
+                                <div>Driven by <span>knowledge.</span>
+                                </div>
+                            </div>
+                            <p></p>
+                            <a href="/about" class="button yellow">Learn more about Origen</a>
+                        </div>
+                        <div>
+                            <img src="/shahidh_origen/static/src/img/infra.png" alt=""/>
+                        </div>
+                    </div>
+                </section>
+
+                <div id="wrap">
+                    <div class="oe_structure">
+                        <section class="gray oe_structure">
+                            <div class="headline">
+                                <h2>Our featured partners</h2>
+                            </div>
+
+
+                            <div class="icons_list narrow featured_partners">
+                                <img src="/shahidh_origen/static/src/img/brands/nvidia_partner.png" alt=""/>
+                                <img src="/shahidh_origen/static/src/img/brands/dell.png" alt=""/>
+                                <img src="/shahidh_origen/static/src/img/brands/ddn.jpg" alt=""/>
+                                <img src="/shahidh_origen/static/src/img/brands/tintri.png" alt=""/>
+                                <img src="/shahidh_origen/static/src/img/brands/cisco.svg" alt=""/>
+                                <img src="/shahidh_origen/static/src/img/brands/juniper.png" alt=""/>
+                                <img src="/shahidh_origen/static/src/img/brands/vmware.png" alt=""/>
+                                <img src="/shahidh_origen/static/src/img/brands/hpe_black.png" alt=""/>
+                                <img src="/shahidh_origen/static/src/img/brands/mitel.png" alt=""/>
+                            </div>
+                        </section>
+
+
+                        <section class="fiber black oe_structure">
+                            <div class="headline">
+                                <h2 class="autoline">Connectivity Services</h2>
+                            </div>
+                            <div class="block_stack">
+                                <div class="half">
+                                    <div class="wrapper">
+                                        <img src="/shahidh_origen/static/src/img/products/polycomconf.png" alt=""/>
+                                        <h4>Hosted VoIP PBX by Origen</h4>
+                                        <p>Origen has experience with IP PBX for over 10 years now. Change the way you do business with our Hosted PBX and benefit from high-end VoIP features.</p>
+                                        <a href="/services/voip">Learn more about our <span class="autoline full">Hosted PBX service</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="half">
+                                    <div class="wrapper">
+                                        <img src="/shahidh_origen/static/src/img/products/pbxserverphone.png" alt=""/>
+                                        <h4>SIP Trunking by Origen</h4>
+                                        <p>Origen offers high availability SIP Channels for mid to large enterprices. Compatible with almost every IP based PBX and Call Center dialing Platforms (available via dedicated local circuits).</p>
+                                        <a href="/services/voip">Learn more about our <span class="autoline full">SIP Trunking service</span>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="full cta">
+                                    <span>Not sure which is best for you?</span>
+                                    <span>Our technicians will be happy to guide you through</span>
+                                    <a href="/contact#contact_form" class="button light">Get an estimate</a>
+                                </div>
+
+                                <div class="half">
+                                    <div class="wrapper">
+                                        <h4>Business Internet</h4>
+                                        <p>Affordable and Unlimited Fiber Internet Connection. Give your company access to a stable and unshared Fiber Internet connection with NO LIMIT of downloading.</p>
+                                        <a href="/services/fiber">Learn more about our <span class="autoline full">Business Internet service</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="half">
+                                    <div class="wrapper">
+                                        <h4>Dedicated Fiber Internet</h4>
+                                        <p>Origen offers a high availability and dedicated Fiber Internet Connection for mid to large enterprises delivered via fiber optic. Connection are backed by high quality bandwidth and exceptional customer service.</p>
+                                        <a href="/services/fiber">Learn more about our <span class="autoline full">Fiber Internet service</span>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="third chosen_one">
+                                    <div class="wrapper">
+                                        <img src="/shahidh_origen/static/src/img/products/cloud-backup.png" alt=""/>
+                                        <h4>Cloud Backup, Disaster Recovery &amp; Storage</h4>
+                                        <p>Use latest technology such as DRaaS to get back to your feet in no time, all without experiencing downtime!</p>
+                                        <a href="" class="autoline">Learn more</a>
+                                    </div>
+                                </div>
+                                <div class="third">
+                                    <div class="wrapper">
+                                        <img src="/shahidh_origen/static/src/img/products/cloud-Iaas.png" alt=""/>
+                                        <h4>Infrastructure-as-a-Service</h4>
+                                        <p>With the ability to virtually handle operations while service providers keep track of the hardware, IaaS is a favorite.</p>
+                                        <a href="" class="autoline">Learn more</a>
+                                    </div>
+                                </div>
+                                <div class="third">
+                                    <div class="wrapper">
+                                        <img src="/shahidh_origen/static/src/img/products/cloud-managed.png" alt=""/>
+                                        <h4>Cloud Managed Networking</h4>
+                                        <p>Cloud Managed Networking combines versatility and efficiency with the advantages the cloud has to offer.</p>
+                                        <a href="" class="autoline">Learn more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                    </div>
+                </div>
+            </t>
+        </xpath>
+    </template>
+</odoo>
