@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="page_contactus" model="website.page">
+        <field name="name">contactus</field>
+        <field name="is_published" eval="True"/>
+        <field name="key">website_shahidh.contact</field>
+        <field name="url">/contactus</field>
+        <field name="type">qweb</field>
+        <field name="arch" type="xml">
+            <t t-name="origen_test.conatactus">
+                <t t-call="website.layout">
+                    <t t-call="origen_theme_lbx.header"/>
+                    <div id="wrap" class="oe_structure">
+
+                        <section id="landing" class="blue title_only">
+                            <div class="wrapper">
+                                <div>
+                                    <div class="title">
+                                        <div class="autoline">Contact us</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <div id="wrap">
+                            <div class="oe_structure">
+                                <section class="white">
+                                    <h2>Our Offices Around The World</h2>
+                                    <ul class="contact_offices column_list">
+                                        <li>
+                                            <span class="title">Canada</span>
+                                            <span>1350 rue Mazurette</span>
+                                            <span>#225</span>
+                                            <span>Montreal, QC</span>
+                                            <span>H4N 1H2</span>
+                                        </li>
+                                        <li>
+                                            <span class="title">USA</span>
+                                            <span>99 Wall Street</span>
+                                            <span>#401</span>
+                                            <span>New York City, NY</span>
+                                            <span>10005</span>
+                                        </li>
+                                        <li>
+                                            <span class="title">Qatar</span>
+                                            <span>1 Al Corniche St</span>
+                                            <span>Burj Doha, level 21</span>
+                                            <span>Doha</span>
+                                        </li>
+                                    </ul>
+                                </section>
+                            </div>
+
+                            <section class="contact_form contact_page_form" id="contact_form">
+                                <h2>Drop us a line</h2>
+                                <form action="/website_form/" method="post" data-model_name="crm.lead" data-success_page="/contactus-thank-you" enctype="multipart/form-data" data-editable-form="false" class="s_website_form">
+                                    <div class="input_group">
+                                        <div class="input_group_head">
+                                            <label for="">Full Name:</label>
+                                        </div>
+                                        <input type="text" required="true" name="name" t-att-value="request.params.get('name', '')"/>
+                                    </div>
+                                    <div class="input_group">
+                                        <div class="input_group_head">
+                                            <label for="">Email Address:</label>
+                                        </div>
+                                        <input type="email" required="true" name="email_from" t-att-value="request.params.get('email_from', '')" />
+                                    </div>
+                                    <div class="input_group">
+                                        <div class="input_group_head">
+                                            <label for="">Phone Number:</label>
+                                        </div>
+                                        <input type="tel" name="phone" t-att-value="request.params.get('phone', '')"/>
+                                    </div>
+                                    <div class="input_group">
+                                        <div class="input_group_head">
+                                            <label for="">Company Name:</label>
+                                        </div>
+                                        <input type="text" name="partner_name" t-att-value="request.params.get('partner_name', '')"/>
+                                    </div>
+                                    <div class="input_group">
+                                        <div class="input_group_head">
+                                            <label>Services you may be interested in:</label>
+                                        </div>
+                                        <ul class="checkboxes">
+                                            <t t-if="request.params.get('interested_in_voip', '') == 'on'">
+                                                <t t-set="var_interested_in_voip" t-value="'checked'" />
+                                            </t>
+                                            <t t-else="">
+                                                <t t-set="var_interested_in_voip" t-value="false" />
+                                            </t>
+                                            <li>
+                                                <input type="checkbox" name="interested_in_voip" t-att-checked="var_interested_in_voip" id="voip"/>
+                                                <label for="voip">Hosted VoIP PBX</label>
+                                            </li>
+                                            <t t-if="request.params.get('interested_in_sip', '') == 'on'">
+                                                <t t-set="var_interested_in_sip" t-value="'checked'" />
+                                            </t>
+                                            <t t-else="">
+                                                <t t-set="var_interested_in_sip" t-value="false" />
+                                            </t>
+                                            <li>
+                                                <input type="checkbox" name="interested_in_sip" t-att-checked="var_interested_in_sip" id="sip"/>
+                                                <label for="sip">SIP Trunking</label>
+                                            </li>
+                                            <t t-if="request.params.get('interested_in_internet', '') == 'on'">
+                                                <t t-set="var_interested_in_internet" t-value="'checked'" />
+                                            </t>
+                                            <t t-else="">
+                                                <t t-set="var_interested_in_internet" t-value="false" />
+                                            </t>
+                                            <li>
+                                                <input type="checkbox" name="interested_in_internet" t-att-checked="var_interested_in_internet" id="internet"/>
+                                                <label for="internet">Business Internet</label>
+                                            </li>
+                                            <t t-if="request.params.get('interested_in_cloud_backup', '') == 'on'">
+                                                <t t-set="var_interested_in_cloud_backup" t-value="'checked'" />
+                                            </t>
+                                            <t t-else="">
+                                                <t t-set="var_interested_in_cloud_backup" t-value="false" />
+                                            </t>
+                                            <li>
+                                                <input type="checkbox" name="interested_in_cloud_backup" t-att-checked="var_interested_in_cloud_backup" id="cloud_backup"/>
+                                                <label for="cloud_backup">Cloud backup, disaster recovery &amp; storage</label>
+                                            </li>
+                                            <t t-if="request.params.get('interested_in_infra', '') == 'on'">
+                                                <t t-set="var_interested_in_infra" t-value="'checked'" />
+                                            </t>
+                                            <t t-else="">
+                                                <t t-set="var_interested_in_infra" t-value="false" />
+                                            </t>
+                                            <li>
+                                                <input type="checkbox" name="interested_in_infra" t-att-checked="var_interested_in_infra" id="infra"/>
+                                                <label for="infra">Inftrastructure as a service</label>
+                                            </li>
+                                            <t t-if="request.params.get('interested_in_cloud_management', '') == 'on'">
+                                                <t t-set="var_interested_in_cloud_management" t-value="true" />
+                                            </t>
+                                            <t t-else="">
+                                                <t t-set="var_interested_in_cloud_management" t-value="false" />
+                                            </t>
+                                            <li>
+                                                <input type="checkbox" name="interested_in_cloud_management" t-att-checked="var_interested_in_cloud_management" id="cloud_management"/>
+                                                <label for="cloud_management">Cloud management networking</label>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="input_group">
+                                        <div>
+                                            <label>Your message:</label>
+                                        </div>
+                                        <textarea name="description" id="" cols="30" rows="10" required="true">
+                                            <t t-esc="request.params.get('description', '')"/>
+                                        </textarea>
+                                    </div>
+
+                                    <div class="input_group send_button">
+                                        <span class="btn btn-primary btn-lg send">Send</span>
+                                        <i class="fa fa-spinner fa-pulse fa-2x fa-fw hidden"></i>
+                                        <span class="btn btn-primary btn-lg o_website_form_send hidden">Send</span>
+                                        <span id="o_website_form_result"></span>
+                                    </div>
+
+                                    <div t-attf-class="error_messages hidden">
+                                        <span class="section_title">Name</span>
+                                        <span data-field="name" data-rule="required">Please fill in your name</span>
+                                        <span class="section_title">Email</span>
+                                        <span data-field="email_from" data-rule="required">Please provide your email</span>
+                                        <span data-field="email_from" data-rule="email">Please enter a valid email</span>
+                                        <span class="section_title">Phone</span>
+                                        <span data-field="phone" data-rule="required"></span>
+                                        <span class="section_title">Company</span>
+                                        <span data-field="partner_name" data-rule="required"></span>
+                                        <span class="section_title">Message</span>
+                                        <span data-field="description" data-rule="required">Please write your message</span>
+                                    </div>
+                                </form>
+                            </section>
+                        </div>
+
+                    </div>
+                </t>
+
+            </t>
+        </field>
+    </record>
+</odoo>

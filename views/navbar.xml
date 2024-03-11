@@ -24,7 +24,7 @@
                                     <t t-foreach="languages" t-as="lg">
                                         <t t-if="lg[0]==lang">
                                             <t t-esc="lg[1].split('/').pop()" />
-                                            <img src="/shahidh_origen/static/src/img/icons/dropdown.svg" alt="Dropdown arrow"/>
+                                            <img src="/origen_theme_lbx/static/src/img/icons/dropdown.svg" alt="Dropdown arrow"/>
                                         </t>
                                     </t>
                                 </button>
@@ -42,7 +42,7 @@
                     <ul id="main_menu">
                         <li class="mobile_menu_button mobile_menu has_submenu">
                             <button>
-                                <img src="/shahidh_origen/static/src/img/icons/menu.svg" alt=""/>
+                                <img src="/origen_theme_lbx/static/src/img/icons/menu.svg" alt=""/>
                             </button>
                             <div id="mobile_main_menu" class="dropdown_menu">
                                 <div class="home_view">
@@ -51,14 +51,14 @@
                                             <a href="/">Home</a>
                                         </li>
                                         <li class="has_submenu">
-                                            <a href="#" data-target="#mobile_main_menu .services_view">Services <img class="svg" src="/shahidh_origen/static/src/img/icons/dropdown.svg" alt="Dropdown arrow"/>
+                                            <a href="#" data-target="#mobile_main_menu .services_view">Services <img class="svg" src="/origen_theme_lbx/static/src/img/icons/dropdown.svg" alt="Dropdown arrow"/>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="/contact">Contact</a>
+                                            <a href="/contactus">Contact</a>
                                         </li>
                                         <li>
-                                            <a href="/about">About us</a>
+                                            <a href="/aboutus">About us</a>
                                         </li>
                                         <li>
                                             <a href="http://iplab.origen.ca">Blog</a>
@@ -93,7 +93,7 @@
                         <div class="services_view" style="display:none;">
                             <div class="back_button">
                                 <button data-target="#mobile_main_menu .home_view">
-                                    <img class="svg" src="/shahidh_origen/static/src/img/icons/dropdown.svg" alt="Dropdown arrow"/>
+                                    <img class="svg" src="/origen_theme_lbx/static/src/img/icons/dropdown.svg" alt="Dropdown arrow"/>
  Back</button>
                             </div>
 
@@ -149,7 +149,7 @@
 
                 <li class="mobile_menu has_submenu" style="visibility:hidden">
                     <button>
-                        <img src="/shahidh_origen/static/src/img/icons/search.svg" alt=""/>
+                        <img src="/origen_theme_lbx/static/src/img/icons/search.svg" alt=""/>
                     </button>
                     <div class="dropdown_menu">
 
@@ -159,13 +159,13 @@
 
                 <li class="has_logo">
                     <a id="logo" href="/">
-                        <img src="/shahidh_origen/static/src/img/logo/white.png" alt="Origen logo"/>
+                        <img src="/origen_theme_lbx/static/src/img/logo/white.png" alt="Origen logo"/>
                     </a>
                 </li>
 
                 <li class="mobile_menu has_submenu" style="visibility:hidden">
                     <button>
-                        <img src="/shahidh_origen/static/src/img/icons/person.svg" alt=""/>
+                        <img src="/origen_theme_lbx/static/src/img/icons/person.svg" alt=""/>
                     </button>
                     <div class="dropdown_menu">
 
@@ -173,7 +173,7 @@
                 </li>
                 <li class="mobile_menu has_submenu" style="visibility:hidden">
                     <button>
-                        <img src="/shahidh_origen/static/src/img/icons/cart.svg" alt=""/>
+                        <img src="/origen_theme_lbx/static/src/img/icons/cart.svg" alt=""/>
                     </button>
                     <div class="dropdown_menu">
 
@@ -231,27 +231,27 @@
                         <div class="service_picture">
                             <div class="wrapper">
                                 <div id="dropdown_menu_picture_default">
-                                    <img src="/shahidh_origen/static/src/img/products/family-of-products.png" alt=""/>
+                                    <img src="/origen_theme_lbx/static/src/img/products/family-of-products.png" alt=""/>
                                     <p>Origen offers a wide range of products to cover all your IT needs.</p>
                                 </div>
                                 <div id="dropdown_menu_picture_fiber">
                                     <span>Internet</span>
-                                    <img src="/shahidh_origen/static/src/img/services/fiber/router.png" alt=""/>
+                                    <img src="/origen_theme_lbx/static/src/img/services/fiber/router.png" alt=""/>
                                     <p>Origen offers a high availability and dedicated Fiber Internet Connection for mid to large enterprises delivered via fiber optic. Connection are backed by high quality bandwidth and exceptional customer service.</p>
                                 </div>
                                 <div id="dropdown_menu_picture_endpoint">
                                     <span>Endpoint devices</span>
-                                    <img src="/shahidh_origen/static/src/img/services/endpoint/endpoint_devices.png" alt=""/>
+                                    <img src="/origen_theme_lbx/static/src/img/services/endpoint/endpoint_devices.png" alt=""/>
                                     <p>Origen has experience with IP PBX for over 10 years now. Change the way you do business with our Hosted PBX and benefit from high-end VoIP features.</p>
                                 </div>
                                 <div id="dropdown_menu_picture_voip">
                                     <span>PBX</span>
-                                    <img src="/shahidh_origen/static/src/img/products/polycomconf.png" alt=""/>
+                                    <img src="/origen_theme_lbx/static/src/img/products/polycomconf.png" alt=""/>
                                     <p>Origen has experience with IP PBX for over 10 years now. Change the way you do business with our Hosted PBX and benefit from high-end VoIP features.</p>
                                 </div>
                                 <div id="dropdown_menu_picture_data_storage">
                                     <span>Data Storage</span>
-                                    <img src="/shahidh_origen/static/src/img/services/storage/lenovo.png" alt=""/>
+                                    <img src="/origen_theme_lbx/static/src/img/services/storage/lenovo.png" alt=""/>
                                     <p>Origen has experience with IP PBX for over 10 years now. Change the way you do business with our Hosted PBX and benefit from high-end VoIP features.</p>
                                 </div>
                                 <div id="dropdown_menu_picture_networking">
@@ -269,10 +269,10 @@
                     </div>
                 </li>
                 <li>
-                    <a href="/about">About us</a>
+                    <a href="/aboutus">About us</a>
                 </li>
                 <li>
-                    <a href="/contact">Contact us </a>
+                    <a href="/contactus">Contact us </a>
                 </li>
             </ul>
         </div>
@@ -280,7 +280,7 @@
             <!-- <header>
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
                     <a class="navbar-brand" href="#">
-                        <img style="height:50px; widht:auto;" src="shahidh_origen/static/src/img/logo/blue_gradient.png"/>
+                        <img style="height:50px; widht:auto;" src="origen_theme_lbx/static/src/img/logo/blue_gradient.png"/>
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>

@@ -6,7 +6,7 @@
         <field name="priority">100</field>
         <field name="arch" type="xml">
             <xpath expr="//link[@type='image/x-icon']" position="replace">
-                <link type="image/x-icon" rel="shortcut icon" href="/shahidh_origen/static/src/img/favicon.ico"/>
+                <link type="image/x-icon" rel="shortcut icon" href="/origen_theme_lbx/static/src/img/favicon.ico"/>
             </xpath>
 
         </field>

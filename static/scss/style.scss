@@ -2169,6 +2169,10 @@ header {
 	width: 100%;
 	z-index: 20;
 
+	.oe_login_header {
+		background-color: #024465;
+	}
+
 	#top_header {
 		width: 100%;
 		border-bottom: 1px solid rgba(255, 255, 255, 0.24);
@@ -3059,7 +3063,7 @@ header {
 			}
 
 			input[type="submit"] {
-				background: rgb(255, 255, 255) url(/origen_theme/static/src/img/icons/search2.svg);
+				background: rgb(255, 255, 255) url(/shahidh_origen/static/src/img/icons/search2.svg);
 				background-repeat: no-repeat;
 				background-position: center;
 				background-size: 70%;
@@ -3069,7 +3073,7 @@ header {
 				border-radius: 4px;
 
 				&:hover {
-					background: $yellow url(/origen_theme/static/src/img/icons/search.svg);
+					background: $yellow url(/shahidh_origen/static/src/img/icons/search.svg);
 					background-repeat: no-repeat;
 					background-position: center;
 					background-size: 70%;

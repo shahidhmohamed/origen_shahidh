@@ -10,10 +10,89 @@
             <t t-name="website_airproof.page_about_us">
 
                 <t t-call="website.layout">
+                <t t-call="origen_theme_lbx.header"/>
                     <div id="wrap" class="oe_structure">
 
-                        <!-- Content -->
-                        <p>Test</p>
+                        <section id="landing" class="blue">
+                    <div class="wrapper">
+                        <div>
+                            <div class="title">
+                                <div>About <span class="autoline full">Origen</span>
+                                </div>
+                            </div>
+                            <p>Our engineers assist you throughout our partnership. Their expertise and their involvement in technological developments ensures the responsiveness you deserve.</p>
+                            <a href="/contact#contact_form" class="button yellow">Contact us</a>
+                        </div>
+                        <div>
+                            <img src="/origen_theme_lbx/static/src/img/header.png" alt=""/>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="about_article">
+                    <div class="side">
+                        <p>Founded in 2004, Origen has been providing individually tailored Fiber Internet and complete VoIP solutions for medium to large scale businesses all over Canada. We aim to enhance our services with our approach towards customer satisfaction, reasonable pricing, and much more.</p>
+
+                        <a href="/contact" class="button blue">Get an estimate</a>
+                    </div>
+                    <article>
+
+                        <p>At Origen, we strive to provide a perfect business experience through our products and services. Our highly qualified staff is more than ready to assist you through your alliance with us. Their vast knowledge in technological developments is sure to provide you the accessibility and benefits you deserve.</p>
+
+                        <p>Origen is proud to hold a reputable name in the business internet and communication market throughout Canada. Upon collaborating with us, businesses can chose from our wide range of products and services and avail them for a constant and healthy growth of their enterprise.</p>
+
+                        <p>At Origen, our focus is completely centered on enterprise communications and providing high speed Fiber internet to them. We develop and deliver novel products, applications, and solutions that are specifically personalized according to the core needs of each valuable client.</p>
+
+                        <p>Our company is flexible in a way that it provides features as simple as call managers for small and medium businesses, rising up to the level of large companies requiring more extensive solutions such as integrated mobility, call centre solutions, and choosing from a wide range of terminals. Our target is to enable seamless communications between businesses.</p>
+
+                        <p>After laying its roots in 2004 in Montreal, Canada, Origen has succeeded in becoming a leading company in the telecommunications sector.</p>
+
+                        <p>We benefit not only large and reputable businesses, but also provide services feasibility to small and medium scaled businesses, giving each one an equally advantageous experience.</p>
+
+                        <p>With an increasing tech-oriented world out there, staying connected is a sine qua non for all industries, irrespective of their type. This is where Origen steps in, packed with high quality and low maintenance telecom products, services and business IP Telephony, including the latest VoIP phones and IP Phones, ready to boost the growth of any company.</p>
+
+                        <p>Another great benefit businesses can avail is adaptability. According to the specific needs per client, Origen solutions suit their mobility, financial, and security needs. An unlimited local and long distance telephone services and systems and teleworker compatibility, no initial capital investment is needed to avail our services. Regarding our services concerning ISP (Internet Service Providers), we do not resell, but instead provide our own services. Our VoIP system is highly understanding of your basic needs to be able to work to its full potential.</p>
+
+
+                    </article>
+                </section>
+
+                <section class="black">
+                    <div class="headline">
+                        <h2 class="autoline">Discover Our Services</h2>
+                    </div>
+
+                    <div class="blocks_slider">
+                        <div class="block">
+                            <img src="/origen_theme_lbx/static/src/img/products/cloud-backup.png" alt=""/>
+                            <h4>Cloud Backup, Disaster Recovery &amp; Storage</h4>
+                            <p>Use latest technology such as DRaaS to get back to your feet in no time, all without experiencing downtime!</p>
+                            <a href="/contact#contact_form" class="autoline">Learn more</a>
+                        </div>
+                        <div class="block">
+                            <img src="/origen_theme_lbx/static/src/img/products/cloud-Iaas.png" alt=""/>
+                            <h4>Infrastructure-as-a-Service</h4>
+                            <p>With the ability to virtually handle operations while service providers keep track of the hardware, IaaS is a favorite.</p>
+                            <a href="/contact#contact_form" class="autoline">Learn more</a>
+                        </div>
+                        <div class="block">
+                            <img src="/origen_theme_lbx/static/src/img/products/cloud-managed.png" alt=""/>
+                            <h4>Cloud Managed Networking</h4>
+                            <p>Cloud Managed Networking combines versatility and efficiency with the advantages the cloud has to offer.</p>
+                            <a href="/contact#contact_form" class="autoline">Learn more</a>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="about_hire white" id="careers">
+                    <h2>We Hire</h2>
+                    <p>Are you looking for an opportunity to apply your skills in developing VoIP communications along with working with an awesome team? Have you been waiting for the right moment to be able to fulfill your career dreams and achieve these goals?</p>
+
+                    <p>Well, join Origen, and get a hold of the best working opportunity you will ever experience!</p>
+
+                    <p>To join our team, please email your resume and cover letter to <a href="mailto:hr@origen.ca">hr@origen.ca</a>
+                    </p>
+                </section>
 
                     </div>
                 </t>

@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+  <template id="origen_theme_lbx.header">
+
+    <header>
+      <div id="top_header">
+        <div class="wrapper">
+          <div>
+            <a href="tel:+1 855 696 7443">Let's talk! Call us now: <span>+1 855 696 7443</span>
+            </a>
+          </div>
+          <div>
+            <ul>
+              <li>
+                <a href="http://iplab.origen.ca/">Blog</a>
+              </li>
+              <li>
+                <a href="/support">Support</a>
+              </li>
+            </ul>
+            <div class="separator"></div>
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <t t-foreach="languages" t-as="lg">
+                  <t t-if="lg[0]==lang">
+                    <t t-esc="lg[1].split('/').pop()" />
+                    <img src="/origen_theme_lbx/static/src/img/icons/dropdown.svg" alt="Dropdown arrow"/>
+                  </t>
+                </t>
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <ul>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="main_header">
+
+        <ul id="main_menu">
+          <li class="mobile_menu_button mobile_menu has_submenu">
+            <button>
+              <img src="/origen_theme_lbx/static/src/img/icons/menu.svg" alt=""/>
+            </button>
+            <div id="mobile_main_menu" class="dropdown_menu">
+              <div class="home_view">
+                <ul class="mobile_main_menu_list">
+                  <li>
+                    <a href="/">Home</a>
+                  </li>
+                  <li class="has_submenu">
+                    <a href="#" data-target="#mobile_main_menu .services_view">Services <img class="svg" src="/origen_theme_lbx/static/src/img/icons/dropdown.svg" alt="Dropdown arrow"/>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/contactus">Contact</a>
+                  </li>
+                  <li>
+                    <a href="/aboutus">About us</a>
+                  </li>
+                  <li>
+                    <a href="http://iplab.origen.ca">Blog</a>
+                  </li>
+                  <li>
+                    <a href="/support">Support</a>
+                  </li>
+                  <li class="lang_switch">
+                    <span class="gray">Switch language to:</span>
+                  </li>
+                </ul>
+
+                <div class="call_sales_support">
+                  <div>
+                    <span>Let's talk!</span>
+
+                    <a href="tel:+18556967443">Call Sales<br/>
+                    <span>+1 855 696-7443</span>
+                  </a>
+                </div>
+
+                <div>
+                  <span>Need help?</span>
+
+                  <a href="tel:+15146644001">Call Support<br/>
+                  <span>+1 514 664-4001</span>
+                </a>
+              </div>
+            </div>
+
+          </div>
+          <div class="services_view" style="display:none;">
+            <div class="back_button">
+              <button data-target="#mobile_main_menu .home_view">
+                <img class="svg" src="/origen_theme_lbx/static/src/img/icons/dropdown.svg" alt="Dropdown arrow"/>
+ Back</button>
+            </div>
+
+
+            <ul class="mobile_main_menu_list">
+              <li class="title">Connectivity</li>
+              <li>
+                <a href="/services/voip">PBX</a>
+              </li>
+              <li>
+                <a href="/services/fiber">Internet</a>
+              </li>
+            </ul>
+
+            <ul class="mobile_main_menu_list">
+              <li class="title">Infrastructure</li>
+              <li>
+                <a href="#">Security</a>
+              </li>
+              <li>
+                <a href="/services/storage">Data Storage</a>
+              </li>
+              <li>
+                <a href="/services/networking">Networking</a>
+              </li>
+              <li>
+                <a href="/services/endpoint_devices">Endpoint Devices</a>
+              </li>
+              <li>
+                <a href="/services/compute">Compute</a>
+              </li>
+            </ul>
+
+            <ul class="mobile_main_menu_list">
+              <li class="title">Workload focus</li>
+              <li>
+                <a href="#">VDI</a>
+              </li>
+              <li>
+                <a href="#">Wide Wide WAN</a>
+              </li>
+              <li>
+                <a href="#">AI Firewall</a>
+              </li>
+            </ul>
+
+
+
+
+          </div>
+        </div>
+      </li>
+
+      <li class="mobile_menu has_submenu" style="visibility:hidden">
+        <button>
+          <img src="/origen_theme_lbx/static/src/img/icons/search.svg" alt=""/>
+        </button>
+        <div class="dropdown_menu">
+
+        </div>
+      </li>
+
+
+      <li class="has_logo">
+        <a id="logo" href="/">
+          <img src="/origen_theme_lbx/static/src/img/logo/white.png" alt="Origen logo"/>
+        </a>
+      </li>
+
+      <li class="mobile_menu has_submenu" style="visibility:hidden">
+        <button>
+          <img src="/origen_theme_lbx/static/src/img/icons/person.svg" alt=""/>
+        </button>
+        <div class="dropdown_menu">
+
+        </div>
+      </li>
+      <li class="mobile_menu has_submenu" style="visibility:hidden">
+        <button>
+          <img src="/origen_theme_lbx/static/src/img/icons/cart.svg" alt=""/>
+        </button>
+        <div class="dropdown_menu">
+
+        </div>
+      </li>
+      <li>
+        <a href="/">Home</a>
+      </li>
+      <li class="has_submenu">
+        <a class="dropdown_button" href="#">Services</a>
+        <div class="dropdown_menu vertical services_menu">
+          <div class="services">
+            <ul>
+              <li class="title">Connectivity</li>
+              <li>
+                <a href="/services/voip" data-target="dropdown_menu_picture_voip">PBX</a>
+              </li>
+              <li>
+                <a href="/services/fiber" data-target="dropdown_menu_picture_fiber">Internet</a>
+              </li>
+            </ul>
+
+            <ul>
+              <li class="title">Infrastructure</li>
+              <li>
+                <a href="#" data-target="">Security</a>
+              </li>
+              <li>
+                <a href="/services/storage" data-target="dropdown_menu_picture_data_storage">Data Storage</a>
+              </li>
+              <li>
+                <a href="/services/networking" data-target="dropdown_menu_picture_networking">Networking</a>
+              </li>
+              <li>
+                <a href="/services/endpoint_devices" data-target="dropdown_menu_picture_endpoint">Endpoint Devices</a>
+              </li>
+              <li>
+                <a href="/services/compute" data-target="dropdown_menu_picture_compute">Compute</a>
+              </li>
+            </ul>
+
+            <ul>
+              <li class="title">Workload focus</li>
+              <li>
+                <a href="#">VDI</a>
+              </li>
+              <li>
+                <a href="#">Wide Wide WAN</a>
+              </li>
+              <li>
+                <a href="#">AI Firewall</a>
+              </li>
+            </ul>
+          </div>
+          <div class="service_picture">
+            <div class="wrapper">
+              <div id="dropdown_menu_picture_default">
+                <img src="/origen_theme_lbx/static/src/img/products/family-of-products.png" alt=""/>
+                <p>Origen offers a wide range of products to cover all your IT needs.</p>
+              </div>
+              <div id="dropdown_menu_picture_fiber">
+                <span>Internet</span>
+                <img src="/origen_theme_lbx/static/src/img/services/fiber/router.png" alt=""/>
+                <p>Origen offers a high availability and dedicated Fiber Internet Connection for mid to large enterprises delivered via fiber optic. Connection are backed by high quality bandwidth and exceptional customer service.</p>
+              </div>
+              <div id="dropdown_menu_picture_endpoint">
+                <span>Endpoint devices</span>
+                <img src="/origen_theme_lbx/static/src/img/services/endpoint/endpoint_devices.png" alt=""/>
+                <p>Origen has experience with IP PBX for over 10 years now. Change the way you do business with our Hosted PBX and benefit from high-end VoIP features.</p>
+              </div>
+              <div id="dropdown_menu_picture_voip">
+                <span>PBX</span>
+                <img src="/origen_theme_lbx/static/src/img/products/polycomconf.png" alt=""/>
+                <p>Origen has experience with IP PBX for over 10 years now. Change the way you do business with our Hosted PBX and benefit from high-end VoIP features.</p>
+              </div>
+              <div id="dropdown_menu_picture_data_storage">
+                <span>Data Storage</span>
+                <img src="/origen_theme_lbx/static/src/img/services/storage/lenovo.png" alt=""/>
+                <p>Origen has experience with IP PBX for over 10 years now. Change the way you do business with our Hosted PBX and benefit from high-end VoIP features.</p>
+              </div>
+              <div id="dropdown_menu_picture_networking">
+                <span>Networking</span>
+                <img src="/web/image/66137" alt=""/>
+                <p>Origen has experience with IP PBX for over 10 years now. Change the way you do business with our Hosted PBX and benefit from high-end VoIP features.</p>
+              </div>
+              <div id="dropdown_menu_picture_compute">
+                <span>Compute</span>
+                <img src="/web/image/66141" alt=""/>
+                <p>Origen has experience with IP PBX for over 10 years now. Change the way you do business with our Hosted PBX and benefit from high-end VoIP features.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <a href="/aboutus">About us</a>
+      </li>
+      <li>
+        <a href="/contactus">Contact us </a>
+      </li>
+    </ul>
+  </div>
+</header>
+
+
+
+</template>
+
+</odoo>
